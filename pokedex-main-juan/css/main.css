@@ -4,6 +4,9 @@ padding: 10px;
 body{
     background-color: red;
 }
+nav{
+    border-radius: 15px;
+}
 
 #searchButton, #cleanButton {
     margin-left: 10px;
@@ -19,3 +22,17 @@ body{
       display: none;
     }
   }
+.pie{
+    text-align: center;
+    color: lightgray;
+    padding: 10px;
+    position: absolute;
+    margin-bottom: 0px;
+    width: 100%;
+    border-radius: 15px;
+}
+#imagen {
+    box-shadow: 0px 0px 10px 2px white;
+    border-radius: 200%;
+    margin-right: 20px;
+}
