@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Pokedex</title>
+<!--<meta charset="utf-8">
+	<meta name="author" content="Tania Arellano">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Nerko+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+		integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+		integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+		integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+		crossorigin="anonymous"></script>-->
+
+	<link rel="stylesheet" href="assets/css/styles.css">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<script src="assets/jquery/jquery.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+	<div class="container my-3">
+		<div class="row">
+			<div>
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1024px-International_Pok%C3%A9mon_logo.svg.png"
+					width="200px">
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<nav class="navbar navbar-expand-lg navbar-dark ">
+			<div id="imagen">
+				<img src="assets/img/pokeball.png" id="logo" width="30px">
+			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+				aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav">
+					<li class="nav-item active"">
+						<a class=" nav-link" href="../pokedex-main-juan/index.html">Home</a>
+					</li>
+				</ul>
+			</div>
+
+
+		</nav>
+
+		<div id="pokesection" class="container" style="width: 100%;">
+
+			<h2 style="margin-left: 40px;">Pokedex</h2>
+			<div class="accordion " id="accordionExample">
+				<div class="card">
+					<div class="card-header" id="headingOne">
+						<h2 class="mb-0">
+							<button class="btn btn-link btn-block text-left collapsed" type="button"
+								data-toggle="collapse" data-target="#collapseOne" aria-expanded="false"
+								aria-controls="collapseOne">
+								Type 1
+							</button>
+						</h2>
+					</div>
+					<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+						<div class="card-body">
+							<h2>Normal</h2>
+							<table class="table table-striped">
+								<thead>
+									<tr>
+										<th>Nombre</th>
+										<th>URL</th>
+									</tr>
+								</thead>
+								<tbody id="tabla1"></tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header" id="headingTwo">
+						<h2 class="mb-0">
+							<button class="btn btn-link btn-block text-left collapsed" type="button"
+								data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+								aria-controls="collapseTwo">
+								Type 2
+							</button>
+						</h2>
+					</div>
+					<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+						<div class="card-body">
+							<h2>Fighting</h2>
+							<table class="table table-striped">
+								<thead>
+									<tr>
+										<th>Nombre</th>
+										<th>URL</th>
+									</tr>
+								</thead>
+								<tbody id="tabla2"></tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header" id="headingThree">
+						<h2 class="mb-0">
+							<button class="btn btn-link btn-block text-left collapsed" type="button"
+								data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+								aria-controls="collapseThree">
+								Type 3
+							</button>
+						</h2>
+					</div>
+					<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+						<div class="card-body">
+							<h2>Fighting</h2>
+							<table class="table table-striped">
+								<thead>
+									<tr>
+										<th>Nombre</th>
+										<th>URL</th>
+									</tr>
+								</thead>
+								<tbody id="tabla3"></tbody>
+							</table>
+						</div>
+					</div>
+				</div><div class="card">
+					<div class="card-header" id="headingFour">
+						<h2 class="mb-0">
+							<button class="btn btn-link btn-block text-left collapsed" type="button"
+								data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
+								aria-controls="collapseFour">
+								Type 4
+							</button>
+						</h2>
+					</div>
+					<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+						<div class="card-body">
+							<h2>Fighting</h2>
+							<table class="table table-striped">
+								<thead>
+									<tr>
+										<th>Nombre</th>
+										<th>URL</th>
+									</tr>
+								</thead>
+								<tbody id="tabla4"></tbody>
+							</table>
+						</div>
+					</div>
+				</div><div class="card">
+					<div class="card-header" id="headingFive">
+						<h2 class="mb-0">
+							<button class="btn btn-link btn-block text-left collapsed" type="button"
+								data-toggle="collapse" data-target="#collapseFive" aria-expanded="false"
+								aria-controls="collapseFive">
+								Type 5
+							</button>
+						</h2>
+					</div>
+					<div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+						<div class="card-body">
+							<h2>Fighting</h2>
+							<table class="table table-striped">
+								<thead>
+									<tr>
+										<th>Nombre</th>
+										<th>URL</th>
+									</tr>
+								</thead>
+								<tbody id="tabla5"></tbody>
+							</table>
+						</div>
+					</div>
+				</div><div class="card">
+					<div class="card-header" id="headingSix">
+						<h2 class="mb-0">
+							<button class="btn btn-link btn-block text-left collapsed" type="button"
+								data-toggle="collapse" data-target="#collapseSix" aria-expanded="false"
+								aria-controls="collapseSix">
+								Type 6
+							</button>
+						</h2>
+					</div>
+					<div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+						<div class="card-body">
+							<h2>Fighting</h2>
+							<table class="table table-striped">
+								<thead>
+									<tr>
+										<th>Nombre</th>
+										<th>URL</th>
+									</tr>
+								</thead>
+								<tbody id="tabla6"></tbody>
+							</table>
+						</div>
+					</div>
+				</div><div class="card">
+					<div class="card-header" id="headingSeven">
+						<h2 class="mb-0">
+							<button class="btn btn-link btn-block text-left collapsed" type="button"
+								data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false"
+								aria-controls="collapseSeven">
+								Type 7
+							</button>
+						</h2>
+					</div>
+					<div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+						<div class="card-body">
+							<h2>Fighting</h2>
+							<table class="table table-striped">
+								<thead>
+									<tr>
+										<th>Nombre</th>
+										<th>URL</th>
+									</tr>
+								</thead>
+								<tbody id="tabla7"></tbody>
+							</table>
+						</div>
+					</div>
+				</div><div class="card">
+					<div class="card-header" id="headingEight">
+						<h2 class="mb-0">
+							<button class="btn btn-link btn-block text-left collapsed" type="button"
+								data-toggle="collapse" data-target="#collapseEight" aria-expanded="false"
+								aria-controls="collapseEight">
+								Type 8
+							</button>
+						</h2>
+					</div>
+					<div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
+						<div class="card-body">
+							<h2>Fighting</h2>
+							<table class="table table-striped">
+								<thead>
+									<tr>
+										<th>Nombre</th>
+										<th>URL</th>
+									</tr>
+								</thead>
+								<tbody id="tabla8"></tbody>
+							</table>
+						</div>
+					</div>
+				</div><div class="card">
+					<div class="card-header" id="headingNine">
+						<h2 class="mb-0">
+							<button class="btn btn-link btn-block text-left collapsed" type="button"
+								data-toggle="collapse" data-target="#collapseNine" aria-expanded="false"
+								aria-controls="collapseNine">
+								Type 9
+							</button>
+						</h2>
+					</div>
+					<div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample">
+						<div class="card-body">
+							<h2>Fighting</h2>
+							<table class="table table-striped">
+								<thead>
+									<tr>
+										<th>Nombre</th>
+										<th>URL</th>
+									</tr>
+								</thead>
+								<tbody id="tabla9"></tbody>
+							</table>
+						</div>
+					</div>
+				</div><div class="card">
+					<div class="card-header" id="headingTen">
+						<h2 class="mb-0">
+							<button class="btn btn-link btn-block text-left collapsed" type="button"
+								data-toggle="collapse" data-target="#collapseTen" aria-expanded="false"
+								aria-controls="collapseTen">
+								Type 10
+							</button>
+						</h2>
+					</div>
+					<div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionExample">
+						<div class="card-body">
+							<h2>Fighting</h2>
+							<table class="table table-striped">
+								<thead>
+									<tr>
+										<th>Nombre</th>
+										<th>URL</th>
+									</tr>
+								</thead>
+								<tbody id="tabla10"></tbody>
+							</table>
+						</div>
+					</div>
+				</div><div class="card">
+					<div class="card-header" id="headingEleven">
+						<h2 class="mb-0">
+							<button class="btn btn-link btn-block text-left collapsed" type="button"
+								data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false"
+								aria-controls="collapseEleven">
+								Type 11
+							</button>
+						</h2>
+					</div>
+					<div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordionExample">
+						<div class="card-body">
+							<h2>Fighting</h2>
+							<table class="table table-striped">
+								<thead>
+									<tr>
+										<th>Nombre</th>
+										<th>URL</th>
+									</tr>
+								</thead>
+								<tbody id="tabla11"></tbody>
+							</table>
+						</div>
+					</div>
+				</div><div class="card">
+					<div class="card-header" id="headingTwelve">
+						<h2 class="mb-0">
+							<button class="btn btn-link btn-block text-left collapsed" type="button"
+								data-toggle="collapse" data-target="#collapseTwelve" aria-expanded="false"
+								aria-controls="collapseTwelve">
+								Type 12
+							</button>
+						</h2>
+					</div>
+					<div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve" data-parent="#accordionExample">
+						<div class="card-body">
+							<h2>Fighting</h2>
+							<table class="table table-striped">
+								<thead>
+									<tr>
+										<th>Nombre</th>
+										<th>URL</th>
+									</tr>
+								</thead>
+								<tbody id="tabla12"></tbody>
+							</table>
+						</div>
+					</div>
+				</div><div class="card">
+					<div class="card-header" id="headingThirteen">
+						<h2 class="mb-0">
+							<button class="btn btn-link btn-block text-left collapsed" type="button"
+								data-toggle="collapse" data-target="#collapseThirteen" aria-expanded="false"
+								aria-controls="collapseThirteen">
+								Type 13
+							</button>
+						</h2>
+					</div>
+					<div id="collapseThirteen" class="collapse" aria-labelledby="headingThirteen" data-parent="#accordionExample">
+						<div class="card-body">
+							<h2>Fighting</h2>
+							<table class="table table-striped">
+								<thead>
+									<tr>
+										<th>Nombre</th>
+										<th>URL</th>
+									</tr>
+								</thead>
+								<tbody id="tabla13"></tbody>
+							</table>
+						</div>
+					</div>
+				</div><div class="card">
+					<div class="card-header" id="headingFourteen">
+						<h2 class="mb-0">
+							<button class="btn btn-link btn-block text-left collapsed" type="button"
+								data-toggle="collapse" data-target="#collapseFourteen" aria-expanded="false"
+								aria-controls="collapseFourteen">
+								Type 14
+							</button>
+						</h2>
+					</div>
+					<div id="collapseFourteen" class="collapse" aria-labelledby="headingFourteen" data-parent="#accordionExample">
+						<div class="card-body">
+							<h2>Fighting</h2>
+							<table class="table table-striped">
+								<thead>
+									<tr>
+										<th>Nombre</th>
+										<th>URL</th>
+									</tr>
+								</thead>
+								<tbody id="tabla14"></tbody>
+							</table>
+						</div>
+					</div>
+				</div><div class="card">
+					<div class="card-header" id="headingFifteen">
+						<h2 class="mb-0">
+							<button class="btn btn-link btn-block text-left collapsed" type="button"
+								data-toggle="collapse" data-target="#collapseFifteen" aria-expanded="false"
+								aria-controls="collapseFifteen">
+								Type 15
+							</button>
+						</h2>
+					</div>
+					<div id="collapseFifteen" class="collapse" aria-labelledby="headingFifteen" data-parent="#accordionExample">
+						<div class="card-body">
+							<h2>Fighting</h2>
+							<table class="table table-striped">
+								<thead>
+									<tr>
+										<th>Nombre</th>
+										<th>URL</th>
+									</tr>
+								</thead>
+								<tbody id="tabla15"></tbody>
+							</table>
+						</div>
+					</div>
+				</div><div class="card">
+					<div class="card-header" id="headingSixteen">
+						<h2 class="mb-0">
+							<button class="btn btn-link btn-block text-left collapsed" type="button"
+								data-toggle="collapse" data-target="#collapseSixteen" aria-expanded="false"
+								aria-controls="collapseSixteen">
+								Type 16
+							</button>
+						</h2>
+					</div>
+					<div id="collapseSixteen" class="collapse" aria-labelledby="headingSixteen" data-parent="#accordionExample">
+						<div class="card-body">
+							<h2>Fighting</h2>
+							<table class="table table-striped">
+								<thead>
+									<tr>
+										<th>Nombre</th>
+										<th>URL</th>
+									</tr>
+								</thead>
+								<tbody id="tabla16"></tbody>
+							</table>
+						</div>
+					</div>
+				</div><div class="card">
+					<div class="card-header" id="headingSeventeen">
+						<h2 class="mb-0">
+							<button class="btn btn-link btn-block text-left collapsed" type="button"
+								data-toggle="collapse" data-target="#collapseSeventeen" aria-expanded="false"
+								aria-controls="collapseSeventeen">
+								Type 17
+							</button>
+						</h2>
+					</div>
+					<div id="collapseSeventeen" class="collapse" aria-labelledby="headingSeventeen" data-parent="#accordionExample">
+						<div class="card-body">
+							<h2>Fighting</h2>
+							<table class="table table-striped">
+								<thead>
+									<tr>
+										<th>Nombre</th>
+										<th>URL</th>
+									</tr>
+								</thead>
+								<tbody id="tabla17"></tbody>
+							</table>
+						</div>
+					</div>
+				</div><div class="card">
+					<div class="card-header" id="headingEighteen">
+						<h2 class="mb-0">
+							<button class="btn btn-link btn-block text-left collapsed" type="button"
+								data-toggle="collapse" data-target="#collapseEighteen" aria-expanded="false"
+								aria-controls="collapseEighteen">
+								Type 18
+							</button>
+						</h2>
+					</div>
+					<div id="collapseEighteen" class="collapse" aria-labelledby="headingEighteen" data-parent="#accordionExample">
+						<div class="card-body">
+							<h2>Fighting</h2>
+							<table class="table table-striped">
+								<thead>
+									<tr>
+										<th>Nombre</th>
+										<th>URL</th>
+									</tr>
+								</thead>
+								<tbody id="tabla18"></tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			2020 | Pokedex
+		</footer>
+	</div>
+	<script src="assets/js/main.js"></script>
+</body>
+
+</html>
