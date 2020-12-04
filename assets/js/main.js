@@ -6,6 +6,8 @@ $.ajax({
 .done(function (data) {
     var tipo = JSON.parse(data);
     var tabla = document.querySelector("#tabla1");
+    var name = document.getElementById("name1");
+    name.innerHTML = tipo.name;
     for (var poke of tipo.pokemon) {
         tabla.innerHTML +=`
         <tr>
@@ -21,6 +23,8 @@ $.ajax({
 }).done(function (data) {
     var tipo = JSON.parse(data);
     var tabla = document.querySelector("#tabla2");
+    var name = document.getElementById("name2");
+    name.innerHTML = tipo.name;
     for (var poke of tipo.pokemon) {
         tabla.innerHTML +=`
         <tr>
@@ -37,6 +41,8 @@ $.ajax({
 }).done(function (data) {
     var tipo = JSON.parse(data);
     var tabla = document.querySelector("#tabla3");
+    var name = document.getElementById("name3");
+    name.innerHTML = tipo.name;
     for (var poke of tipo.pokemon) {
         tabla.innerHTML +=`
         <tr>
@@ -53,6 +59,8 @@ $.ajax({
 }).done(function (data) {
     var tipo = JSON.parse(data);
     var tabla = document.querySelector("#tabla4");
+    var name = document.getElementById("name4");
+    name.innerHTML = tipo.name;
     for (var poke of tipo.pokemon) {
         tabla.innerHTML +=`
         <tr>
@@ -69,6 +77,8 @@ $.ajax({
 }).done(function (data) {
     var tipo = JSON.parse(data);
     var tabla = document.querySelector("#tabla5");
+    var name = document.getElementById("name5");
+    name.innerHTML = tipo.name;
     for (var poke of tipo.pokemon) {
         tabla.innerHTML +=`
         <tr>
@@ -85,6 +95,8 @@ $.ajax({
 }).done(function (data) {
     var tipo = JSON.parse(data);
     var tabla = document.querySelector("#tabla6");
+    var name = document.getElementById("name6");
+    name.innerHTML = tipo.name;
     for (var poke of tipo.pokemon) {
         tabla.innerHTML +=`
         <tr>
@@ -101,6 +113,8 @@ $.ajax({
 }).done(function (data) {
     var tipo = JSON.parse(data);
     var tabla = document.querySelector("#tabla7");
+    var name = document.getElementById("name7");
+    name.innerHTML = tipo.name;
     for (var poke of tipo.pokemon) {
         tabla.innerHTML +=`
         <tr>
@@ -117,6 +131,8 @@ $.ajax({
 }).done(function (data) {
     var tipo = JSON.parse(data);
     var tabla = document.querySelector("#tabla8");
+    var name = document.getElementById("name8");
+    name.innerHTML = tipo.name;
     for (var poke of tipo.pokemon) {
         tabla.innerHTML +=`
         <tr>
@@ -133,6 +149,8 @@ $.ajax({
 }).done(function (data) {
     var tipo = JSON.parse(data);
     var tabla = document.querySelector("#tabla9");
+    var name = document.getElementById("name9");
+    name.innerHTML = tipo.name;
     for (var poke of tipo.pokemon) {
         tabla.innerHTML +=`
         <tr>
@@ -149,6 +167,8 @@ $.ajax({
 }).done(function (data) {
     var tipo = JSON.parse(data);
     var tabla = document.querySelector("#tabla10");
+    var name = document.getElementById("name10");
+    name.innerHTML = tipo.name;
     for (var poke of tipo.pokemon) {
         tabla.innerHTML +=`
         <tr>
@@ -165,6 +185,8 @@ $.ajax({
 }).done(function (data) {
     var tipo = JSON.parse(data);
     var tabla = document.querySelector("#tabla11");
+    var name = document.getElementById("name11");
+    name.innerHTML = tipo.name;
     for (var poke of tipo.pokemon) {
         tabla.innerHTML +=`
         <tr>
@@ -181,6 +203,8 @@ $.ajax({
 }).done(function (data) {
     var tipo = JSON.parse(data);
     var tabla = document.querySelector("#tabla12");
+    var name = document.getElementById("name12");
+    name.innerHTML = tipo.name;
     for (var poke of tipo.pokemon) {
         tabla.innerHTML +=`
         <tr>
@@ -197,6 +221,8 @@ $.ajax({
 }).done(function (data) {
     var tipo = JSON.parse(data);
     var tabla = document.querySelector("#tabla13");
+    var name = document.getElementById("name13");
+    name.innerHTML = tipo.name;
     for (var poke of tipo.pokemon) {
         tabla.innerHTML +=`
         <tr>
@@ -213,6 +239,8 @@ $.ajax({
 }).done(function (data) {
     var tipo = JSON.parse(data);
     var tabla = document.querySelector("#tabla14");
+    var name = document.getElementById("name14");
+    name.innerHTML = tipo.name;
     for (var poke of tipo.pokemon) {
         tabla.innerHTML +=`
         <tr>
@@ -229,6 +257,8 @@ $.ajax({
 }).done(function (data) {
     var tipo = JSON.parse(data);
     var tabla = document.querySelector("#tabla15");
+    var name = document.getElementById("name15");
+    name.innerHTML = tipo.name;
     for (var poke of tipo.pokemon) {
         tabla.innerHTML +=`
         <tr>
@@ -245,6 +275,8 @@ $.ajax({
 }).done(function (data) {
     var tipo = JSON.parse(data);
     var tabla = document.querySelector("#tabla16");
+    var name = document.getElementById("name16");
+    name.innerHTML = tipo.name;
     for (var poke of tipo.pokemon) {
         tabla.innerHTML +=`
         <tr>
@@ -261,6 +293,8 @@ $.ajax({
 }).done(function (data) {
     var tipo = JSON.parse(data);
     var tabla = document.querySelector("#tabla17");
+    var name = document.getElementById("name17");
+    name.innerHTML = tipo.name;
     for (var poke of tipo.pokemon) {
         tabla.innerHTML +=`
         <tr>
@@ -277,6 +311,8 @@ $.ajax({
 }).done(function (data) {
     var tipo = JSON.parse(data);
     var tabla = document.querySelector("#tabla18");
+    var name = document.getElementById("name18");
+    name.innerHTML = tipo.name;
     for (var poke of tipo.pokemon) {
         tabla.innerHTML +=`
         <tr>
