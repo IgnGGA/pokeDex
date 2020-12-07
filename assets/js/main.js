@@ -12,7 +12,9 @@ $.ajax({
         tabla.innerHTML +=`
         <tr>
         <td>"${poke.pokemon.name}"</td>
-        <td><a href="${poke.pokemon.url}">"atrapalo"</a></td>
+        <td><button type="button" class="btn btn-primary" data-toggle="modal" 
+        data-target="#pokemodal" data-enlace="${poke.pokemon.url}" 
+        onclick="getPokemonDetails(this)">Atrapalo</button></td>
         </tr>
          `}
 })
@@ -29,7 +31,9 @@ $.ajax({
         tabla.innerHTML +=`
         <tr>
         <td>"${poke.pokemon.name}"</td>
-        <td><a href="${poke.pokemon.url}">"atrapalo"</a></td>
+        <td><button type="button" class="btn btn-primary" data-toggle="modal" 
+        data-target="#pokemodal" data-enlace="${poke.pokemon.url}" 
+        onclick="getPokemonDetails(this)">Atrapalo</button></td>
         </tr>
         `
     }
@@ -47,7 +51,9 @@ $.ajax({
         tabla.innerHTML +=`
         <tr>
         <td>"${poke.pokemon.name}"</td>
-        <td><a href="${poke.pokemon.url}">"atrapalo"</a></td>
+        <td><button type="button" class="btn btn-primary" data-toggle="modal" 
+        data-target="#pokemodal" data-enlace="${poke.pokemon.url}" 
+        onclick="getPokemonDetails(this)">Atrapalo</button></td>
         </tr>
         `
     }
@@ -65,7 +71,9 @@ $.ajax({
         tabla.innerHTML +=`
         <tr>
         <td>"${poke.pokemon.name}"</td>
-        <td><a href="${poke.pokemon.url}">"atrapalo"</a></td>
+        <td><button type="button" class="btn btn-primary" data-toggle="modal" 
+        data-target="#pokemodal" data-enlace="${poke.pokemon.url}" 
+        onclick="getPokemonDetails(this)">Atrapalo</button></td>
         </tr>
         `
     }
@@ -83,7 +91,9 @@ $.ajax({
         tabla.innerHTML +=`
         <tr>
         <td>"${poke.pokemon.name}"</td>
-        <td><a href="${poke.pokemon.url}">"atrapalo"</a></td>
+        <td><button type="button" class="btn btn-primary" data-toggle="modal" 
+        data-target="#pokemodal" data-enlace="${poke.pokemon.url}" 
+        onclick="getPokemonDetails(this)">Atrapalo</button></td>
         </tr>
         `
     }
@@ -101,7 +111,9 @@ $.ajax({
         tabla.innerHTML +=`
         <tr>
         <td>"${poke.pokemon.name}"</td>
-        <td><a href="${poke.pokemon.url}">"atrapalo"</a></td>
+        <td><button type="button" class="btn btn-primary" data-toggle="modal" 
+        data-target="#pokemodal" data-enlace="${poke.pokemon.url}" 
+        onclick="getPokemonDetails(this)">Atrapalo</button></td>
         </tr>
         `
     }
@@ -119,7 +131,9 @@ $.ajax({
         tabla.innerHTML +=`
         <tr>
         <td>"${poke.pokemon.name}"</td>
-        <td><a href="${poke.pokemon.url}">"atrapalo"</a></td>
+        <td><button type="button" class="btn btn-primary" data-toggle="modal" 
+        data-target="#pokemodal" data-enlace="${poke.pokemon.url}" 
+        onclick="getPokemonDetails(this)">Atrapalo</button></td>
         </tr>
         `
     }
@@ -137,7 +151,9 @@ $.ajax({
         tabla.innerHTML +=`
         <tr>
         <td>"${poke.pokemon.name}"</td>
-        <td><a href="${poke.pokemon.url}">"atrapalo"</a></td>
+        <td><button type="button" class="btn btn-primary" data-toggle="modal" 
+        data-target="#pokemodal" data-enlace="${poke.pokemon.url}" 
+        onclick="getPokemonDetails(this)">Atrapalo</button></td>
         </tr>
         `
     }
@@ -155,7 +171,9 @@ $.ajax({
         tabla.innerHTML +=`
         <tr>
         <td>"${poke.pokemon.name}"</td>
-        <td><a href="${poke.pokemon.url}">"atrapalo"</a></td>
+        <td><button type="button" class="btn btn-primary" data-toggle="modal" 
+        data-target="#pokemodal" data-enlace="${poke.pokemon.url}" 
+        onclick="getPokemonDetails(this)">Atrapalo</button></td>
         </tr>
         `
     }
@@ -173,7 +191,9 @@ $.ajax({
         tabla.innerHTML +=`
         <tr>
         <td>"${poke.pokemon.name}"</td>
-        <td><a href="${poke.pokemon.url}">"atrapalo"</a></td>
+        <td><button type="button" class="btn btn-primary" data-toggle="modal" 
+        data-target="#pokemodal" data-enlace="${poke.pokemon.url}" 
+        onclick="getPokemonDetails(this)">Atrapalo</button></td>
         </tr>
         `
     }
@@ -191,7 +211,9 @@ $.ajax({
         tabla.innerHTML +=`
         <tr>
         <td>"${poke.pokemon.name}"</td>
-        <td><a href="${poke.pokemon.url}">"atrapalo"</a></td>
+        <td><button type="button" class="btn btn-primary" data-toggle="modal" 
+        data-target="#pokemodal" data-enlace="${poke.pokemon.url}" 
+        onclick="getPokemonDetails(this)">Atrapalo</button></td>
         </tr>
         `
     }
@@ -209,7 +231,9 @@ $.ajax({
         tabla.innerHTML +=`
         <tr>
         <td>"${poke.pokemon.name}"</td>
-        <td><a href="${poke.pokemon.url}">"atrapalo"</a></td>
+        <td><button type="button" class="btn btn-primary" data-toggle="modal" 
+        data-target="#pokemodal" data-enlace="${poke.pokemon.url}" 
+        onclick="getPokemonDetails(this)">Atrapalo</button></td>
         </tr>
         `
     }
@@ -227,7 +251,9 @@ $.ajax({
         tabla.innerHTML +=`
         <tr>
         <td>"${poke.pokemon.name}"</td>
-        <td><a href="${poke.pokemon.url}">"atrapalo"</a></td>
+        <td><button type="button" class="btn btn-primary" data-toggle="modal" 
+        data-target="#pokemodal" data-enlace="${poke.pokemon.url}" 
+        onclick="getPokemonDetails(this)">Atrapalo</button></td>
         </tr>
         `
     }
@@ -245,7 +271,9 @@ $.ajax({
         tabla.innerHTML +=`
         <tr>
         <td>"${poke.pokemon.name}"</td>
-        <td><a href="${poke.pokemon.url}">"atrapalo"</a></td>
+        <td><button type="button" class="btn btn-primary" data-toggle="modal" 
+        data-target="#pokemodal" data-enlace="${poke.pokemon.url}" 
+        onclick="getPokemonDetails(this)">Atrapalo</button></td>
         </tr>
         `
     }
@@ -263,7 +291,9 @@ $.ajax({
         tabla.innerHTML +=`
         <tr>
         <td>"${poke.pokemon.name}"</td>
-        <td><a href="${poke.pokemon.url}">"atrapalo"</a></td>
+        <td><button type="button" class="btn btn-primary" data-toggle="modal" 
+        data-target="#pokemodal" data-enlace="${poke.pokemon.url}" 
+        onclick="getPokemonDetails(this)">Atrapalo</button></td>
         </tr>
         `
     }
@@ -281,7 +311,9 @@ $.ajax({
         tabla.innerHTML +=`
         <tr>
         <td>"${poke.pokemon.name}"</td>
-        <td><a href="${poke.pokemon.url}">"atrapalo"</a></td>
+        <td><button type="button" class="btn btn-primary" data-toggle="modal" 
+        data-target="#pokemodal" data-enlace="${poke.pokemon.url}" 
+        onclick="getPokemonDetails(this)">Atrapalo</button></td>
         </tr>
         `
     }
@@ -299,7 +331,9 @@ $.ajax({
         tabla.innerHTML +=`
         <tr>
         <td>"${poke.pokemon.name}"</td>
-        <td><a href="${poke.pokemon.url}">"atrapalo"</a></td>
+        <td><button type="button" class="btn btn-primary" data-toggle="modal" 
+        data-target="#pokemodal" data-enlace="${poke.pokemon.url}" 
+        onclick="getPokemonDetails(this)">Atrapalo</button></td>
         </tr>
         `
     }
@@ -317,8 +351,26 @@ $.ajax({
         tabla.innerHTML +=`
         <tr>
         <td>"${poke.pokemon.name}"</td>
-        <td><a href="${poke.pokemon.url}">"atrapalo"</a></td>
+        <td><button type="button" class="btn btn-primary" data-toggle="modal" 
+        data-target="#pokemodal" data-enlace="${poke.pokemon.url}" 
+        onclick="getPokemonDetails(this)">Atrapalo</button></td>
         </tr>
         `
     }
 })
+
+function getPokemonDetails(element){
+    let detailUrl = element.getAttribute("data-enlace");
+    $.ajax({
+      type:"GET",
+      url: detailUrl
+      }).done(function(data){
+        console.log(data.name);
+        document.getElementById("pokeName").innerHTML = data.name;
+        document.getElementById("pokeImg").innerHTML = `
+        <img src="${data.sprites.front_default}" weight="80px" />
+        `  
+      }).fail(function(error){
+        alert("Algo va mal");
+      })
+  }
