@@ -367,10 +367,23 @@ function getPokemonDetails(element){
       }).done(function(data){
         console.log(data.name);
         document.getElementById("pokeName").innerHTML = data.name;
+        document.getElementById("pokeNum").innerHTML = data.id;
+        document.getElementById("altura").innerHTML = data.height/10;
+        document.getElementById("peso").innerHTML = data.weight/10;
+        document.getElementById("expBase").innerHTML = data.base_experience;
+        // document.getElementById("cantHab").innerHTML = buscarHabilidades(data);
+
+
         document.getElementById("pokeImg").innerHTML = `
-        <img src="${data.sprites.front_default}" weight="80px" />
+        <img src="${data.sprites.front_default}"  style = "width: 85%; height: 85%;/>
         `  
       }).fail(function(error){
         alert("Algo va mal");
       })
   }
+//   function buscarHabilidades(data){ 
+    //   var cont=0;
+    //   for(habilidad of data.abilities){
+        //    cont+= 1;
+        // } return cont;
+    // };

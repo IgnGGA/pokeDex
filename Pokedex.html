@@ -42,12 +42,43 @@
 			<div class="modal-body">
 				<div class="container-fluid">
 					<div class="row">
-						<div class="col-3 text-center">
-							<p>Nombre:<span id="pokeName"></span></p>
-						</div>
-						<div class="col-3 text-center">
+						<div class="col-6 " id=#pokeFoto>
 							<div id="pokeImg"></div>
 						</div>
+						<div class="col-6" style="border: solid 1px blue" id="caja1">
+							<div class="container-fluid " id="caja2" style="border: solid 1px red;">
+								<span id="titulo"><b>Especificaciones</b></span>
+								<div class="row" >
+									<div class="col-6">
+										<div>
+											<p>Altura:<span id="altura"></span> Mts</p>
+										</div>
+									</div>
+									<div class="col-6">
+										<div>
+											<p>Peso:<span id="peso"></span> Kg</p>
+										</div>
+									</div>
+									<div class="col-6">
+										<div>
+											<p>Experiencia Base:<span id="expBase"></span></p>
+										</div>
+									</div>
+									<div class="col-6">
+										<div>
+											<p>Cantidad de Habilidades:<span di="cantHab"></span></p>
+										</div>
+									</div>
+								</div>
+							
+							</div>
+
+						</div>
+						
+					</div>
+					<div class ="row">
+						<div class="col-6"><p>Nombre: <span id="pokeName"></span></p></div>
+						<div class="col-6"><p>Numero: <span id="pokeNum"></span></p></div>
 					</div>		
 				</div>
 			</div>
@@ -96,7 +127,7 @@
 							<button class="btn btn-link btn-block text-left collapsed" type="button"
 								data-toggle="collapse" data-target="#collapseOne" aria-expanded="false"
 								aria-controls="collapseOne">
-								Type 1
+								Type 1:<p id="name1"></p>
 							</button>
 						</h2>
 					</div>
@@ -121,7 +152,7 @@
 							<button class="btn btn-link btn-block text-left collapsed" type="button"
 								data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
 								aria-controls="collapseTwo">
-								Type 2
+								Type 2: <p id="name2"></p>
 							</button>
 						</h2>
 					</div>
@@ -146,7 +177,7 @@
 							<button class="btn btn-link btn-block text-left collapsed" type="button"
 								data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
 								aria-controls="collapseThree">
-								Type 3
+								Type 3:<p id="name3"></p>
 							</button>
 						</h2>
 					</div>
@@ -170,7 +201,7 @@
 							<button class="btn btn-link btn-block text-left collapsed" type="button"
 								data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
 								aria-controls="collapseFour">
-								Type 4
+								Type 4:<p id="name4"></p>
 							</button>
 						</h2>
 					</div>
@@ -194,7 +225,7 @@
 							<button class="btn btn-link btn-block text-left collapsed" type="button"
 								data-toggle="collapse" data-target="#collapseFive" aria-expanded="false"
 								aria-controls="collapseFive">
-								Type 5
+								Type 5:<p id="name5"></p>
 							</button>
 						</h2>
 					</div>
@@ -218,7 +249,7 @@
 							<button class="btn btn-link btn-block text-left collapsed" type="button"
 								data-toggle="collapse" data-target="#collapseSix" aria-expanded="false"
 								aria-controls="collapseSix">
-								Type 6
+								Type 6:<p id="name6"></p>
 							</button>
 						</h2>
 					</div>
@@ -242,7 +273,7 @@
 							<button class="btn btn-link btn-block text-left collapsed" type="button"
 								data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false"
 								aria-controls="collapseSeven">
-								Type 7
+								Type 7:<p id="name7"></p>
 							</button>
 						</h2>
 					</div>
@@ -266,7 +297,7 @@
 							<button class="btn btn-link btn-block text-left collapsed" type="button"
 								data-toggle="collapse" data-target="#collapseEight" aria-expanded="false"
 								aria-controls="collapseEight">
-								Type 8
+								Type 8:<p id="name8"></p>
 							</button>
 						</h2>
 					</div>
@@ -290,7 +321,7 @@
 							<button class="btn btn-link btn-block text-left collapsed" type="button"
 								data-toggle="collapse" data-target="#collapseNine" aria-expanded="false"
 								aria-controls="collapseNine">
-								Type 9
+								Type 9:<p id="name9"></p>
 							</button>
 						</h2>
 					</div>
@@ -314,7 +345,7 @@
 							<button class="btn btn-link btn-block text-left collapsed" type="button"
 								data-toggle="collapse" data-target="#collapseTen" aria-expanded="false"
 								aria-controls="collapseTen">
-								Type 10
+								Type 10:<p id="name10"></p>
 							</button>
 						</h2>
 					</div>
@@ -338,7 +369,7 @@
 							<button class="btn btn-link btn-block text-left collapsed" type="button"
 								data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false"
 								aria-controls="collapseEleven">
-								Type 11
+								Type 11:<p id="name11"></p>
 							</button>
 						</h2>
 					</div>
@@ -362,7 +393,7 @@
 							<button class="btn btn-link btn-block text-left collapsed" type="button"
 								data-toggle="collapse" data-target="#collapseTwelve" aria-expanded="false"
 								aria-controls="collapseTwelve">
-								Type 12
+								Type 12:<p id="name12"></p>
 							</button>
 						</h2>
 					</div>
@@ -386,7 +417,7 @@
 							<button class="btn btn-link btn-block text-left collapsed" type="button"
 								data-toggle="collapse" data-target="#collapseThirteen" aria-expanded="false"
 								aria-controls="collapseThirteen">
-								Type 13
+								Type 13:<p id="name13"></p>
 							</button>
 						</h2>
 					</div>
@@ -410,7 +441,7 @@
 							<button class="btn btn-link btn-block text-left collapsed" type="button"
 								data-toggle="collapse" data-target="#collapseFourteen" aria-expanded="false"
 								aria-controls="collapseFourteen">
-								Type 14
+								Type 14:<p id="name14"></p>
 							</button>
 						</h2>
 					</div>
@@ -434,7 +465,7 @@
 							<button class="btn btn-link btn-block text-left collapsed" type="button"
 								data-toggle="collapse" data-target="#collapseFifteen" aria-expanded="false"
 								aria-controls="collapseFifteen">
-								Type 15
+								Type 15:<p id="name15"></p>
 							</button>
 						</h2>
 					</div>
@@ -458,7 +489,7 @@
 							<button class="btn btn-link btn-block text-left collapsed" type="button"
 								data-toggle="collapse" data-target="#collapseSixteen" aria-expanded="false"
 								aria-controls="collapseSixteen">
-								Type 16
+								Type 16:<p id="name16"></p>
 							</button>
 						</h2>
 					</div>
@@ -482,7 +513,7 @@
 							<button class="btn btn-link btn-block text-left collapsed" type="button"
 								data-toggle="collapse" data-target="#collapseSeventeen" aria-expanded="false"
 								aria-controls="collapseSeventeen">
-								Type 17
+								Type 17:<p id="name17"></p>
 							</button>
 						</h2>
 					</div>
@@ -506,7 +537,7 @@
 							<button class="btn btn-link btn-block text-left collapsed" type="button"
 								data-toggle="collapse" data-target="#collapseEighteen" aria-expanded="false"
 								aria-controls="collapseEighteen">
-								Type 18
+								Type 18:<p id="name18"></p>
 							</button>
 						</h2>
 					</div>

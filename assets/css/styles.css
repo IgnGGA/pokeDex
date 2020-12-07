@@ -15,8 +15,22 @@ footer{
 }
 nav{
     background-color: red !important;
-    border-radius: 10px;
+    border-radius: 0px;
 }
 span:last-child{
     font-size: 18px;
+}
+#pokeFoto{
+    border: solid;
+}
+#caja1,#caja2{
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: left;
+    font-size: 15px;
+    padding: 0px;
+}
+#titulo{
+    font-size: 17px;
+    margin-left: 20%;
 }
