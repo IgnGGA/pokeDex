@@ -372,8 +372,9 @@ function getPokemonDetails(element){
         document.getElementById("peso").innerHTML = data.weight/10;
         document.getElementById("expBase").innerHTML = data.base_experience;
         document.getElementById("cantHab").innerHTML = data.abilities.length;
+        document.getElementById("pokenum2").innerHTML = data.moves.length;
         var lista = document.querySelector("#listMov") ;
-        
+        lista.innerHTML="";
         for (var movimiento of data.moves) {
           //console.log(movimiento.move.name);
              lista.innerHTML +=`
@@ -384,12 +385,14 @@ function getPokemonDetails(element){
         }
 
         var lista2 = document.querySelector("#listTip") ;
-        
-        for (var tipo of data.types) {
+        lista2.innerHTML = " ";
+        for (var tip of data.types) {
           //console.log(movimiento.move.name);
-             lista2.innerHTML +=`
+          //Te esta sumando a la lista de uno, la del pokemon anterior o:
+         
+          lista2.innerHTML +=`
             <tr>
-            <td>"${tipo.type.name}"</td>
+            <td>"${tip.type.name}"</td>
             </tr>
             `
         }
