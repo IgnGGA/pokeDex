@@ -23,7 +23,7 @@ span:last-child{
 #pokeFoto{
     border: solid;
 }
-#caja1,#caja2{
+#caja1,#caja2, #caja1 #caja2 p span{
     margin: 0 !important;
     padding: 0 !important;
     text-align: left;
@@ -33,4 +33,8 @@ span:last-child{
 #titulo{
     font-size: 17px;
     margin-left: 20%;
+}
+#cuadro{
+    height: 150px;
+    overflow-y: scroll;
 }

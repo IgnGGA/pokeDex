@@ -365,25 +365,40 @@ function getPokemonDetails(element){
       type:"GET",
       url: detailUrl
       }).done(function(data){
-        console.log(data.name);
+        //console.log(data.name);
         document.getElementById("pokeName").innerHTML = data.name;
         document.getElementById("pokeNum").innerHTML = data.id;
         document.getElementById("altura").innerHTML = data.height/10;
         document.getElementById("peso").innerHTML = data.weight/10;
         document.getElementById("expBase").innerHTML = data.base_experience;
-        // document.getElementById("cantHab").innerHTML = buscarHabilidades(data);
+        document.getElementById("cantHab").innerHTML = data.abilities.length;
+        var lista = document.querySelector("#listMov") ;
+        
+        for (var movimiento of data.moves) {
+          //console.log(movimiento.move.name);
+             lista.innerHTML +=`
+            <tr>
+            <td>"${movimiento.move.name}"</td>
+            </tr>
+            `
+        }
 
+        var lista2 = document.querySelector("#listTip") ;
+        
+        for (var tipo of data.types) {
+          //console.log(movimiento.move.name);
+             lista2.innerHTML +=`
+            <tr>
+            <td>"${tipo.type.name}"</td>
+            </tr>
+            `
+        }
 
         document.getElementById("pokeImg").innerHTML = `
-        <img src="${data.sprites.front_default}"  style = "width: 85%; height: 85%;/>
+        <img src="${data.sprites.front_default}"  style = "width: 85%; height: 85%;"/>
         `  
       }).fail(function(error){
         alert("Algo va mal");
       })
   }
-//   function buscarHabilidades(data){ 
-    //   var cont=0;
-    //   for(habilidad of data.abilities){
-        //    cont+= 1;
-        // } return cont;
-    // };
+ 

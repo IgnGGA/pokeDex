@@ -42,43 +42,81 @@
 			<div class="modal-body">
 				<div class="container-fluid">
 					<div class="row">
-						<div class="col-6 " id=#pokeFoto>
+						<div class="col-5 " id=#pokeFoto>
 							<div id="pokeImg"></div>
 						</div>
-						<div class="col-6" style="border: solid 1px blue" id="caja1">
-							<div class="container-fluid " id="caja2" style="border: solid 1px red;">
+						<div class="col-7" id="caja1">
+							<div class="container-fluid " id="caja2" >
 								<span id="titulo"><b>Especificaciones</b></span>
 								<div class="row" >
 									<div class="col-6">
 										<div>
-											<p>Altura:<span id="altura"></span> Mts</p>
+											<p><b>Altura:</b> <span id="altura"></span> Mts</p>
 										</div>
+										<div>
+											<p><b>Experiencia Base:</b> <span id="expBase"></span></p>
+										</div>
+										
 									</div>
 									<div class="col-6">
 										<div>
-											<p>Peso:<span id="peso"></span> Kg</p>
+											<p><b>Peso:</b> <span id="peso"></span> Kg</p>
+										</div>
+										
+										<div>
+											<p><b>Cantidad de Habilidades: </b><span id="cantHab"></span></p>
 										</div>
 									</div>
-									<div class="col-6">
-										<div>
-											<p>Experiencia Base:<span id="expBase"></span></p>
-										</div>
-									</div>
-									<div class="col-6">
-										<div>
-											<p>Cantidad de Habilidades:<span di="cantHab"></span></p>
-										</div>
+									
+									
+								</div>
+								<div class="row">
+									<div class="col-11">
+										<h6><b>Lista de Movimiento</b></h6>
 									</div>
 								</div>
-							
+								<div class="row">
+									
+									
+									<div class="col-11" id="cuadro">
+										<table class="table">
+											<thead>
+											</thead>
+											<tbody id="listMov">
+		
+											</tbody>
+										</table>
+									</div>
+									
+								</div>
+								<div class="row">
+									<div class="col-11">
+										<h6><b>Lista de Tipos</b></h6>
+									</div>
+								</div>
+								<div class="row">
+									
+									
+									<div class="col-11" id="cuadro">
+										<table class="table">
+											<thead>
+											</thead>
+											<tbody id="listTip">
+		
+											</tbody>
+										</table>
+									</div>
+									
+								</div>
 							</div>
 
 						</div>
 						
 					</div>
+					
 					<div class ="row">
-						<div class="col-6"><p>Nombre: <span id="pokeName"></span></p></div>
-						<div class="col-6"><p>Numero: <span id="pokeNum"></span></p></div>
+						<div class="col-6"><p><b>Nombre:</b> <span id="pokeName"></span></p></div>
+						<div class="col-6"><p><b>Numero:</b> <span id="pokeNum"></span></p></div>
 					</div>		
 				</div>
 			</div>
@@ -118,6 +156,7 @@
 		</nav>
 
 		<div id="pokesection" class="container" style="width: 100%;">
+	
 
 			<h2 style="margin-left: 40px;">Pokedex</h2>
 			<div class="accordion " id="accordionExample">
@@ -557,6 +596,7 @@
 					</div>
 				</div>
 			</div>
+	
 		</div>
 		<footer>
 			2020 | Pokedex
